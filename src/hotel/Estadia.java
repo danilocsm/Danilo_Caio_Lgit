@@ -33,6 +33,10 @@ public class Estadia {
 		return this.animal.getIdade();
 	}
 	
+	public void setDias() {
+		this.dias =  dias;
+	}
+	
 	@Override
 	public String toString() {
 		String output = getNome() + ", " + getTipo() + ", " + this.dias + " dias com o preço de " + this.valor;
