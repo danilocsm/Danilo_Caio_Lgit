@@ -27,4 +27,20 @@ public class Animal {
 	public void setTipo() {
 		this.tipo = tipo;
 	}
+	
+	/**
+	 * Retorna a representacao em string do animal.
+	 * @return string que representa o animal
+	 */
+	public String toString() {
+		return this.nome + " - " + this.idade + " - " + this.tipo;
+	}
+	
+	/**
+	 * Retorna o ano de nascimento do animal.
+	 * @return ano de nascimento do animal.
+	 */
+	public int getAnoNascimento() {
+		return 2019 - this.idade;
+	}
 }

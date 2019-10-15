@@ -7,7 +7,7 @@ public class Estadia {
 	private double valor;
 	
 	
-	public  Estadia(Animal animal,int dias,double valor) {
+	public Estadia(Animal animal,int dias,double valor) {
 		this.animal = animal;
 		this.dias = dias;
 		this.valor = valor;
