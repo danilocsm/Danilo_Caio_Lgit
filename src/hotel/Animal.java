@@ -23,4 +23,8 @@ public class Animal {
 	public int getIdade() {
 		return idade;
 	}
+	
+	public void setTipo() {
+		this.tipo = tipo;
+	}
 }
