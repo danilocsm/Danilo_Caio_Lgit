@@ -37,6 +37,10 @@ public class Estadia {
 		this.dias =  dias;
 	}
 	
+	public void setNome() {
+		this.nome =  nome;
+	}
+	
 	@Override
 	public String toString() {
 		String output = getNome() + ", " + getTipo() + ", " + this.dias + " dias com o preço de " + this.valor;
