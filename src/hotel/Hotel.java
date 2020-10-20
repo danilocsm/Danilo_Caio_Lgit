@@ -2,9 +2,11 @@ package hotel;
 
 public class Hotel {
 	Recepcao recepcao;
+	int qtdEstrelas;
 	
 	public Hotel() {
 		this.recepcao = new Recepcao();
+		this.qtdEstrelas = 1;
 	}
 	
 	public void checkIn(String nome, String tipo, int idade, int dias, double valor) {
@@ -26,6 +28,10 @@ public class Hotel {
 	@Override
 	public String toString() {
 		return this.recepcao.toString();
+	}
+	
+	public void avaliarHotel() {
+		this.qtdEstrelas += 1;
 	}
 	
 	
